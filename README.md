@@ -16,7 +16,7 @@ This repository contains two mini projects focused on **semantic search** using 
 - Preprocesses short hardcoded documents (lowercase + no punctuation)
 - Uses `sentence-transformers` to embed documents
 - Stores embeddings in **ChromaDB**
-- Accepts a user query and retrieves the most relevant document using cosine similarity
+- Accepts a user query and retrieves the most relevant document
 
 **Technologies used:**  
 `sentence-transformers`, `chromadb`, `scikit-learn`
